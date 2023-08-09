@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest">
+        <methods>
+          <include name="bmconfig"/>
+          <include name="amconfig"/>
+          <include name="asconfig"/>
+          <include name="bcconfig"/>
+          <include name="createContect"/>
+          <include name="bsconfig"/>
+          <include name="acconfig"/>
+        </methods>
+      </class> <!-- com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest -->
+      <class name="com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest">
+        <methods>
+          <include name="createOrg" invocation-numbers="0"/>
+          <include name="bmconfig"/>
+          <include name="amconfig"/>
+          <include name="bcconfig"/>
+          <include name="asconfig"/>
+          <include name="acconfig"/>
+          <include name="bsconfig"/>
+        </methods>
+      </class> <!-- com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

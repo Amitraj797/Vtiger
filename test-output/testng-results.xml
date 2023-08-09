@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-07T21:51:26 IST" name="Suite" finished-at="2023-08-07T21:57:44 IST" duration-ms="377974">
+    <groups>
+    </groups>
+    <test started-at="2023-08-07T21:51:26 IST" name="ChromeTest" finished-at="2023-08-07T21:54:36 IST" duration-ms="190211">
+      <class name="com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest">
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:51:27 IST" name="bcconfig" finished-at="2023-08-07T21:51:32 IST" duration-ms="5830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:51:34 IST" name="bmconfig" finished-at="2023-08-07T21:51:38 IST" duration-ms="3713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createOrg(java.lang.String)[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:51:38 IST" name="createOrg" data-provider="getMultiple" finished-at="2023-08-07T21:51:52 IST" duration-ms="14847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:51:52 IST" name="amconfig" finished-at="2023-08-07T21:51:55 IST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:51:55 IST" name="bmconfig" finished-at="2023-08-07T21:51:59 IST" duration-ms="4370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createOrg(java.lang.String)[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:51:59 IST" name="createOrg" data-provider="getMultiple" finished-at="2023-08-07T21:52:16 IST" duration-ms="16445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:52:16 IST" name="amconfig" finished-at="2023-08-07T21:52:18 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:52:18 IST" name="bmconfig" finished-at="2023-08-07T21:52:22 IST" duration-ms="3919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createOrg(java.lang.String)[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:52:22 IST" name="createOrg" data-provider="getMultiple" finished-at="2023-08-07T21:52:38 IST" duration-ms="16724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sidhu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:52:38 IST" name="amconfig" finished-at="2023-08-07T21:52:41 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:52:41 IST" name="bmconfig" finished-at="2023-08-07T21:52:45 IST" duration-ms="4280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createOrg(java.lang.String)[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:52:45 IST" name="createOrg" data-provider="getMultiple" finished-at="2023-08-07T21:53:02 IST" duration-ms="16499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mussa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:53:02 IST" name="amconfig" finished-at="2023-08-07T21:53:04 IST" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="acconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@185a6e9]" started-at="2023-08-07T21:53:04 IST" name="acconfig" finished-at="2023-08-07T21:53:04 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acconfig -->
+      </class> <!-- com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest -->
+      <class name="com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest">
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:04 IST" name="bcconfig" finished-at="2023-08-07T21:53:08 IST" duration-ms="4219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:08 IST" name="bmconfig" finished-at="2023-08-07T21:53:13 IST" duration-ms="4450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:13 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-07T21:53:26 IST" duration-ms="13225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContect -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:26 IST" name="amconfig" finished-at="2023-08-07T21:53:28 IST" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:28 IST" name="bmconfig" finished-at="2023-08-07T21:53:31 IST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:31 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-07T21:53:48 IST" duration-ms="16942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContect -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:48 IST" name="amconfig" finished-at="2023-08-07T21:53:50 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:50 IST" name="bmconfig" finished-at="2023-08-07T21:53:54 IST" duration-ms="3935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:53:54 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-07T21:54:11 IST" duration-ms="16469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sidhu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContect -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:54:11 IST" name="amconfig" finished-at="2023-08-07T21:54:13 IST" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:54:13 IST" name="bmconfig" finished-at="2023-08-07T21:54:18 IST" duration-ms="4225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:54:18 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-07T21:54:34 IST" duration-ms="16118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mussa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContect -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:54:34 IST" name="amconfig" finished-at="2023-08-07T21:54:36 IST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="acconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@74e52ef6]" started-at="2023-08-07T21:54:36 IST" name="acconfig" finished-at="2023-08-07T21:54:36 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acconfig -->
+      </class> <!-- com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-08-07T21:54:37 IST" name="FirefoxTest" finished-at="2023-08-07T21:57:44 IST" duration-ms="186952">
+      <class name="com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:51:26 IST" name="bsconfig" finished-at="2023-08-07T21:51:26 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsconfig -->
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:54:37 IST" name="bcconfig" finished-at="2023-08-07T21:54:41 IST" duration-ms="3979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:54:41 IST" name="bmconfig" finished-at="2023-08-07T21:54:45 IST" duration-ms="3958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createOrg(java.lang.String)[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:54:45 IST" name="createOrg" data-provider="getMultiple" finished-at="2023-08-07T21:54:59 IST" duration-ms="13779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:54:59 IST" name="amconfig" finished-at="2023-08-07T21:55:01 IST" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:55:01 IST" name="bmconfig" finished-at="2023-08-07T21:55:06 IST" duration-ms="4358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createOrg(java.lang.String)[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:55:06 IST" name="createOrg" data-provider="getMultiple" finished-at="2023-08-07T21:55:23 IST" duration-ms="16814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:55:23 IST" name="amconfig" finished-at="2023-08-07T21:55:25 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:55:25 IST" name="bmconfig" finished-at="2023-08-07T21:55:29 IST" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createOrg(java.lang.String)[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:55:29 IST" name="createOrg" data-provider="getMultiple" finished-at="2023-08-07T21:55:45 IST" duration-ms="16367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sidhu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:55:45 IST" name="amconfig" finished-at="2023-08-07T21:55:48 IST" duration-ms="2298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:55:48 IST" name="bmconfig" finished-at="2023-08-07T21:55:52 IST" duration-ms="4287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createOrg(java.lang.String)[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:55:52 IST" name="createOrg" data-provider="getMultiple" finished-at="2023-08-07T21:56:09 IST" duration-ms="17322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mussa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:56:09 IST" name="amconfig" finished-at="2023-08-07T21:56:12 IST" duration-ms="2339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="acconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:56:12 IST" name="acconfig" finished-at="2023-08-07T21:56:12 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acconfig -->
+        <test-method is-config="true" signature="asconfig()[pri:0, instance:com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest@6200f9cb]" started-at="2023-08-07T21:57:44 IST" name="asconfig" finished-at="2023-08-07T21:57:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asconfig -->
+      </class> <!-- com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest -->
+      <class name="com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest">
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:56:12 IST" name="bcconfig" finished-at="2023-08-07T21:56:16 IST" duration-ms="4365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:56:16 IST" name="bmconfig" finished-at="2023-08-07T21:56:21 IST" duration-ms="4637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:56:21 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-07T21:56:34 IST" duration-ms="12964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContect -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:56:34 IST" name="amconfig" finished-at="2023-08-07T21:56:36 IST" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:56:36 IST" name="bmconfig" finished-at="2023-08-07T21:56:40 IST" duration-ms="3594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:56:40 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-07T21:56:56 IST" duration-ms="15892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContect -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:56:56 IST" name="amconfig" finished-at="2023-08-07T21:56:58 IST" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:56:58 IST" name="bmconfig" finished-at="2023-08-07T21:57:02 IST" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:57:02 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-07T21:57:19 IST" duration-ms="16328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sidhu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContect -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:57:19 IST" name="amconfig" finished-at="2023-08-07T21:57:21 IST" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:57:21 IST" name="bmconfig" finished-at="2023-08-07T21:57:25 IST" duration-ms="4082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:57:25 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-07T21:57:41 IST" duration-ms="16200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mussa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContect -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:57:41 IST" name="amconfig" finished-at="2023-08-07T21:57:44 IST" duration-ms="2440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="acconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@2002fc1d]" started-at="2023-08-07T21:57:44 IST" name="acconfig" finished-at="2023-08-07T21:57:44 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acconfig -->
+      </class> <!-- com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
