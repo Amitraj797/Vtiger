@@ -5,7 +5,13 @@
     <classes>
       <class name="com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest">
         <methods>
-          <include name="createOrg" invocation-numbers="0 1 2 3"/>
+          <include name="bmconfig"/>
+          <include name="createOrg"/>
+          <include name="amconfig"/>
+          <include name="asconfig"/>
+          <include name="bcconfig"/>
+          <include name="bsconfig"/>
+          <include name="acconfig"/>
         </methods>
       </class> <!-- com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest -->
     </classes>
