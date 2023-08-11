@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest">
+      <class name="com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest">
         <methods>
           <include name="bmconfig"/>
-          <include name="createOrg"/>
           <include name="amconfig"/>
           <include name="asconfig"/>
           <include name="bcconfig"/>
-          <include name="bsconfig"/>
+          <include name="createContect" invocation-numbers="2"/>
           <include name="acconfig"/>
+          <include name="bsconfig"/>
         </methods>
-      </class> <!-- com.Crm.Vtiger.OrganaisationTest.VerifyUserCreationOrganaitionTest -->
+      </class> <!-- com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

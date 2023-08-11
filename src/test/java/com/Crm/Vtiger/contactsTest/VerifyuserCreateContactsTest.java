@@ -1,7 +1,7 @@
 package com.Crm.Vtiger.contactsTest;
 
 import org.openqa.selenium.By;
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -53,7 +53,7 @@ public class VerifyuserCreateContactsTest extends BaseClass{
 //		driver.findElement(By.name("lastname")).sendKeys(lastn);
 //		driver.findElement(By.xpath("//input[@title='Save [Alt+S]']")).click();
 		String ActualName=driver.findElement(By.xpath("//span[@class='dvHeaderText']")).getText();
-		AssertJUnit.assertTrue(ActualName.contains(lastn));
+		Assert.assertTrue(ActualName.contains(lastn));
 		System.out.println("pass");
 		
 //		hp.logout(driver);
