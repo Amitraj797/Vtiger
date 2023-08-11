@@ -31,9 +31,8 @@ public class BaseClass {
 		System.out.println("database connection sucessfull");
 	}
 	
-//	@Parameter("browser")  cross browser testing
-//	@BeforeClass
-	@BeforeClass(groups={"smoke","regression"})
+//	@Parameter("browser")
+	@BeforeClass
 	public void bcconfig(/* String browser */) throws IOException			// For Cross Browser
 	{
 		String Browser = futil.getDataFromProperty("browser");				//For Batch and Group Execution
@@ -82,7 +81,7 @@ public class BaseClass {
 		
 	}
 	
-	@AfterClass(groups= {"smoke","regression"})
+	@AfterClass(/* groups= {"smoke","regression"} */)
 	public void acconfig()
 	{
 		driver.close();
