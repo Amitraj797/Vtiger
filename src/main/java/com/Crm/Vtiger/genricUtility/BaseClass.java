@@ -2,6 +2,7 @@ package com.Crm.Vtiger.genricUtility;
 
 import java.io.IOException;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -24,14 +25,14 @@ public class BaseClass {
 	public static WebDriver sdriver;
 	public WebDriver driver;
 	
-	@BeforeSuite(alwaysRun=true,groups={"smoke","regression"})
+	@BeforeSuite(groups={"smoke","regression"})
 	public void bsconfig()
 	{
 		System.out.println("database connection sucessfull");
 	}
 	
 //	@Parameter("browser")
-	@BeforeClass(alwaysRun=true,groups={"smoke","regression"})
+	@BeforeClass(groups={"smoke","regression"})
 	public void bcconfig(/* String browser */) throws IOException			// For Cross Browser
 	{
 		String Browser = futil.getDataFromProperty("browser");				//For Batch and Group Execution
@@ -63,7 +64,7 @@ public class BaseClass {
 		
 	}
 	
-	@BeforeMethod(alwaysRun=true,groups={"smoke","regression"})
+	@BeforeMethod(groups= {"smoke","regression"})
 	public void bmconfig() throws Throwable
 	{
 		String UN=futil.getDataFromProperty("username");
@@ -73,7 +74,7 @@ public class BaseClass {
 		System.out.println("Login action done");
 	}
 	
-	@AfterMethod(alwaysRun=true,groups={"smoke","regression"})
+	@AfterMethod(groups= {"smoke","regression"})
 	public void amconfig()
 	{
 		HomePage hp=new HomePage(driver);
@@ -82,14 +83,14 @@ public class BaseClass {
 		
 	}
 	
-	@AfterClass(alwaysRun=true,groups={"smoke","regression"})
+	@AfterClass(/* groups= {"smoke","regression"} */)
 	public void acconfig()
 	{
 		driver.close();
 		System.out.println("Browser closed sucessfully");
 	}
 	
-	@AfterSuite(alwaysRun=true,groups={"smoke","regression"})
+	@AfterSuite(groups= {"smoke","regression"})
 	public void asconfig()
 	{
 		System.out.println("Database closed sucessfully");
