@@ -35,8 +35,8 @@ public class BaseClass {
 	@BeforeClass
 	public void bcconfig(/* String browser */) throws IOException			// For Cross Browser
 	{
-		String Browser = futil.getDataFromProperty("browser");				//For Batch and Group Execution
-//		String Browser=System.getProperty("browser");
+		// String Browser = futil.getDataFromProperty("browser");				//For Batch and Group Execution
+		String Browser=System.getProperty("browser");
 		String URL = futil.getDataFromProperty("url");
 		
 //		RunTime Polymorphism
