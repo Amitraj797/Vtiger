@@ -2,7 +2,6 @@ package com.Crm.Vtiger.genricUtility;
 
 import java.io.IOException;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,6 +11,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+
+import com.beust.jcommander.Parameter;
 
 import ObjectRepository.HomePage;
 import ObjectRepository.LoginPage;
@@ -25,20 +26,20 @@ public class BaseClass {
 	public static WebDriver sdriver;
 	public WebDriver driver;
 	
-	@BeforeSuite(groups={"smoke","regression"})
+	@BeforeSuite(alwaysRun=true,groups={"smoke","regression"})
 	public void bsconfig()
 	{
 		System.out.println("database connection sucessfull");
 	}
 	
 //	@Parameter("browser")
-	@BeforeClass
+	@BeforeClass(alwaysRun=true,groups={"smoke","regression"})
 	public void bcconfig(/* String browser */) throws IOException			// For Cross Browser
 	{
 		String Browser = futil.getDataFromProperty("browser");				//For Batch and Group Execution
 //		String Browser=System.getProperty("browser");
 		String URL = futil.getDataFromProperty("url");
-		
+//		String URL=System.getProperty("url");
 		
 //		RunTime Polymorphism
 		if(Browser.equalsIgnoreCase("chrome"))
@@ -64,7 +65,7 @@ public class BaseClass {
 		
 	}
 	
-	@BeforeMethod(groups= {"smoke","regression"})
+	@BeforeMethod(alwaysRun=true,groups={"smoke","regression"})
 	public void bmconfig() throws Throwable
 	{
 		String UN=futil.getDataFromProperty("username");
@@ -74,7 +75,7 @@ public class BaseClass {
 		System.out.println("Login action done");
 	}
 	
-	@AfterMethod(groups= {"smoke","regression"})
+	@AfterMethod(alwaysRun=true,groups={"smoke","regression"})
 	public void amconfig()
 	{
 		HomePage hp=new HomePage(driver);
@@ -83,14 +84,14 @@ public class BaseClass {
 		
 	}
 	
-	@AfterClass(/* groups= {"smoke","regression"} */)
+	@AfterClass(alwaysRun=true,groups={"smoke","regression"})
 	public void acconfig()
 	{
 		driver.close();
 		System.out.println("Browser closed sucessfully");
 	}
 	
-	@AfterSuite(groups= {"smoke","regression"})
+	@AfterSuite(alwaysRun=true,groups={"smoke","regression"})
 	public void asconfig()
 	{
 		System.out.println("Database closed sucessfully");
