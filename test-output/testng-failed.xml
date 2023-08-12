@@ -9,7 +9,7 @@
           <include name="amconfig"/>
           <include name="asconfig"/>
           <include name="bcconfig"/>
-          <include name="createContect" invocation-numbers="2"/>
+          <include name="createContect"/>
           <include name="acconfig"/>
           <include name="bsconfig"/>
         </methods>

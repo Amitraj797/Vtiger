@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-12T00:04:04 IST" name="Default suite" finished-at="2023-08-12T00:04:54 IST" duration-ms="50352">
+  <suite started-at="2023-08-12T22:16:26 IST" name="Default suite" finished-at="2023-08-12T22:17:14 IST" duration-ms="47269">
     <groups>
     </groups>
-    <test started-at="2023-08-12T00:04:04 IST" name="Default test" finished-at="2023-08-12T00:04:54 IST" duration-ms="50352">
+    <test started-at="2023-08-12T22:16:26 IST" name="Default test" finished-at="2023-08-12T22:17:14 IST" duration-ms="47269">
       <class name="com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest">
-        <test-method is-config="true" signature="bsconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:04 IST" name="bsconfig" finished-at="2023-08-12T00:04:04 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:26 IST" name="bsconfig" finished-at="2023-08-12T22:16:26 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsconfig -->
-        <test-method is-config="true" signature="bcconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:04 IST" name="bcconfig" finished-at="2023-08-12T00:04:11 IST" duration-ms="6647" status="PASS">
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:27 IST" name="bcconfig" finished-at="2023-08-12T22:16:29 IST" duration-ms="2806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcconfig -->
-        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:11 IST" name="bmconfig" finished-at="2023-08-12T00:04:16 IST" duration-ms="4440" status="PASS">
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:30 IST" name="bmconfig" finished-at="2023-08-12T22:16:34 IST" duration-ms="4233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmconfig -->
-        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:16 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-12T00:04:30 IST" duration-ms="13809" status="PASS">
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:34 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-12T22:16:48 IST" duration-ms="14318" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContect -->
-        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:30 IST" name="amconfig" finished-at="2023-08-12T00:04:31 IST" duration-ms="1127" status="PASS">
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:48 IST" name="amconfig" finished-at="2023-08-12T22:16:50 IST" duration-ms="1112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amconfig -->
-        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:31 IST" name="bmconfig" finished-at="2023-08-12T00:04:32 IST" duration-ms="1319" status="PASS">
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:50 IST" name="bmconfig" finished-at="2023-08-12T22:16:51 IST" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmconfig -->
-        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:32 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-12T00:04:38 IST" duration-ms="5708" status="PASS">
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:51 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-12T22:16:57 IST" duration-ms="5876" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,15 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContect -->
-        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:38 IST" name="amconfig" finished-at="2023-08-12T00:04:39 IST" duration-ms="753" status="PASS">
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:57 IST" name="amconfig" finished-at="2023-08-12T22:16:58 IST" duration-ms="856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amconfig -->
-        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:39 IST" name="bmconfig" finished-at="2023-08-12T00:04:40 IST" duration-ms="1258" status="PASS">
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:58 IST" name="bmconfig" finished-at="2023-08-12T22:16:59 IST" duration-ms="1431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmconfig -->
-        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:40 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-12T00:04:45 IST" duration-ms="5598" status="PASS">
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:16:59 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-12T22:17:05 IST" duration-ms="5752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,15 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContect -->
-        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:45 IST" name="amconfig" finished-at="2023-08-12T00:04:46 IST" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:17:05 IST" name="amconfig" finished-at="2023-08-12T22:17:06 IST" duration-ms="863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amconfig -->
-        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:46 IST" name="bmconfig" finished-at="2023-08-12T00:04:47 IST" duration-ms="1297" status="PASS">
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:17:06 IST" name="bmconfig" finished-at="2023-08-12T22:17:07 IST" duration-ms="1456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmconfig -->
-        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:47 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-12T00:04:53 IST" duration-ms="5766" status="PASS">
+        <test-method signature="createContect(java.lang.String)[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:17:07 IST" name="createContect" data-provider="getMultiple" finished-at="2023-08-12T22:17:13 IST" duration-ms="5566" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,15 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContect -->
-        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:53 IST" name="amconfig" finished-at="2023-08-12T00:04:54 IST" duration-ms="867" status="PASS">
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:17:13 IST" name="amconfig" finished-at="2023-08-12T22:17:14 IST" duration-ms="812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amconfig -->
-        <test-method is-config="true" signature="acconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:54 IST" name="acconfig" finished-at="2023-08-12T00:04:54 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="acconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:17:14 IST" name="acconfig" finished-at="2023-08-12T22:17:14 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acconfig -->
-        <test-method is-config="true" signature="asconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@233795b6]" started-at="2023-08-12T00:04:54 IST" name="asconfig" finished-at="2023-08-12T00:04:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asconfig()[pri:0, instance:com.Crm.Vtiger.contactsTest.VerifyuserCreateContactsTest@4b6690c0]" started-at="2023-08-12T22:17:14 IST" name="asconfig" finished-at="2023-08-12T22:17:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asconfig -->
