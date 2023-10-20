@@ -54,7 +54,7 @@ public class BaseClass {
 		}
 		
 		else
-			System.out.println("invalid browser");
+			System.out.println("Invalid browser");
 		
 		sdriver=driver;
 		wbutil.maximize(driver);
